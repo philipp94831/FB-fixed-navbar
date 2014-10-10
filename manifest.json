@@ -1,0 +1,19 @@
+{
+"name":"FB fixed navbar",
+"description":"",
+"version":"0.0.1",
+"manifest_version":2,
+"author": "Philipp Schirmer",
+"icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png"
+},
+"content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "css": ["fixed_navbar.css"],
+      "js": ["fixed_navbar.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

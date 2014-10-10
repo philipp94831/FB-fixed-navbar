@@ -1,0 +1,23 @@
+#scrollbarHider {
+    overflow: hidden;
+    top: 95px;
+    bottom: 0px;
+    position: fixed;
+    margin-left: -20px;
+    margin-top: 12px;
+    width: 181px;
+}
+
+#navigationWrapper {
+    overflow: auto;
+    height: 100%;
+    padding-right: 5000px;
+    padding-left: 20px;
+    width: 181px;
+    position: absolute;
+    top: -12px;
+}
+
+#leftColWrapper {
+    position: fixed;
+}
