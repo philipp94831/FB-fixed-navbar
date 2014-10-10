@@ -1,5 +1,5 @@
-setInterval(foo, 50);
-function foo() {
+setInterval(fixNavbar, 50);
+function fixNavbar() {
     var pagelet_navigation = document.getElementById('pagelet_navigation');
     if (document.getElementById('leftColWrapper') === null && pagelet_navigation !== null) {
         var mainContainer = document.getElementById('mainContainer');
@@ -9,7 +9,7 @@ function foo() {
         var scrollbarHider = document.createElement('div');
         var navigationWrapper = document.createElement('div');
         leftColWrapper.id = 'leftColWrapper';
-        scrollbarHider.id = 'scrollbarHider';
+        scrollbarHider.id = 'scrollbarHider';s
         navigationWrapper.id = 'navigationWrapper';
         mainContainer
             .appendChild(leftColWrapper)
