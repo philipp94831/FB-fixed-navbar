@@ -9,7 +9,7 @@ function fixNavbar() {
         var scrollbarHider = document.createElement('div');
         var navigationWrapper = document.createElement('div');
         leftColWrapper.id = 'leftColWrapper';
-        scrollbarHider.id = 'scrollbarHider';s
+        scrollbarHider.id = 'scrollbarHider';
         navigationWrapper.id = 'navigationWrapper';
         mainContainer
             .appendChild(leftColWrapper)
