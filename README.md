@@ -12,7 +12,7 @@ Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/downloa
 Firefox
 -------
 
-Download at [Add-ons for Firefox](https://addons.mozilla.org/de/firefox/addon/fb-fixed-navbar/)  
+Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)  
 Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.0.0/FB-fixed-navbar.xpi)
 
 For help, see our [FAQ](https://github.com/philipp94831/FB-fixed-navbar/wiki/FAQ)  
