@@ -1,5 +1,6 @@
 /screenshots
-
 *.zip
 *.crx
 *.pem
+*.xpi
+*.db
