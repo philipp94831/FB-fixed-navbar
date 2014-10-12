@@ -6,13 +6,13 @@ This tiny extensions freezes the left navigation pane on Facebook so that it is 
 Chrome
 ------
 
-Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)
+Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)  
 Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.1/FB-fixed-navbar.crx)
 
 Firefox
 -------
 
-Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)
+Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)  
 Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.1/FB-fixed-navbar.xpi)
 
 Using
@@ -21,7 +21,7 @@ Using
 - [jQuery 1.11.1](http://jquery.com/)
 - [jQuery slimScroll](http://rocha.la/jQuery-slimScroll)
 
-For help, see our [FAQ](https://github.com/philipp94831/FB-fixed-navbar/wiki/FAQ)
+For help, see our [FAQ](https://github.com/philipp94831/FB-fixed-navbar/wiki/FAQ)  
 Found a Bug? [File it!](https://github.com/philipp94831/FB-fixed-navbar/issues)
 
 ===
