@@ -6,21 +6,25 @@ This tiny extensions freezes the left navigation pane on Facebook so that it is 
 Chrome
 ------
 
-Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)  
-Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.0.0/FB-fixed-navbar.crx)
+Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)
+Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.0.1/FB-fixed-navbar.crx)
 
 Firefox
 -------
 
-Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)  
-Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.0.0/FB-fixed-navbar.xpi)
+Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)
+Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.0.1/FB-fixed-navbar.xpi)
 
-For help, see our [FAQ](https://github.com/philipp94831/FB-fixed-navbar/wiki/FAQ)  
+For help, see our [FAQ](https://github.com/philipp94831/FB-fixed-navbar/wiki/FAQ)
 Found a Bug? [File it!](https://github.com/philipp94831/FB-fixed-navbar/issues)
 
 ===
 
 [Changelog:](https://github.com/philipp94831/FB-fixed-navbar/releases)
+
+[1.0.1:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.0.1)
+
+- Small UI tweaks
 
 [1.0.0:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.0.0)
 
