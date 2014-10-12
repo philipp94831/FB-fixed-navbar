@@ -30,9 +30,12 @@ function fixNavbar() {
       .appendChild(navigationWrapper)
       .appendChild(pagelet_navigation);
     mainContainer.appendChild(contentCol);
-    $('#navigationWrapper').slimScroll({
+    $.when($('#navigationWrapper').slimScroll({
       height: '100%',
       distance: '8px'
+    })).done(function(element) {
+      document.getElementsByClassName('slimScrollBar')[0].style.display = 'none';
+      handleOptions();
     });
   }
 }
