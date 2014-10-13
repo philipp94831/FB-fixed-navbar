@@ -7,13 +7,13 @@ Chrome
 ------
 
 Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)  
-Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.1/FB-fixed-navbar.crx)
+Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.2/FB-fixed-navbar.crx)
 
 Firefox
 -------
 
 Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)  
-Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.1/FB-fixed-navbar.xpi)
+Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.2/FB-fixed-navbar.xpi)
 
 Using
 -----
@@ -27,6 +27,10 @@ Found a Bug? [File it!](https://github.com/philipp94831/FB-fixed-navbar/issues)
 ===
 
 [Changelog:](https://github.com/philipp94831/FB-fixed-navbar/releases)
+
+[1.1.2:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.2)
+
+- UI tweaks
 
 [1.1.1:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.1)
 
