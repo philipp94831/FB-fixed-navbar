@@ -5,7 +5,7 @@ function handleResize() {
   var scrollbarHider = document.getElementById('scrollbarHider');
   if (scrollbarHider !== null) {
     scrollbarHider.style.display = 'none';
-    scrollbarHider.offsetHeight;
+    dummy = scrollbarHider.offsetHeight;
     scrollbarHider.style.display = 'block';
   }
   if (document.getElementById('navigationWrapper') !== null) {
