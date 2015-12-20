@@ -34,38 +34,73 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}/target/Chrome</outputDirectory>
+              <outputDirectory>${basedir}/target/chrome</outputDirectory>
               <resources>          
                 <resource>
-                  <directory>Shared</directory>
+                  <directory>shared</directory>
                 </resource>          
                 <resource>
-                  <directory>Chrome</directory>
+                  <directory>chrome</directory>
                 </resource>
               </resources>              
             </configuration>            
           </execution>
           <execution>
-            <id>copy-resources-firfox</id>
+            <id>copy-resources-firefox-shared</id>
             <!-- here the phase you need -->
             <phase>validate</phase>
             <goals>
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>${basedir}/target/Firefox</outputDirectory>
+              <outputDirectory>${basedir}/target/firefox/data</outputDirectory>
               <resources>          
                 <resource>
-                  <directory>Shared</directory>
-                </resource>          
+                  <directory>shared</directory>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+          <execution>
+            <id>copy-resources-firefox</id>
+            <!-- here the phase you need -->
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/firefox</outputDirectory>
+              <resources>          
                 <resource>
-                  <directory>Firefox</directory>
+                  <directory>firefox</directory>
                 </resource>
               </resources>              
             </configuration>            
           </execution>
         </executions>
       </plugin>
+      <plugin>
+            <groupId>com.google.code.maven-replacer-plugin</groupId>
+            <artifactId>replacer</artifactId>
+            <version>1.5.3</version>
+            <executions>
+                <execution>
+                    <phase>prepare-package</phase>
+                    <goals>
+                        <goal>replace</goal>
+                    </goals>                    
+                </execution>
+            </executions>
+            <configuration>
+                <includes>
+                    <include>${basedir}/target/chrome/manifest.json</include>
+                    <include>${basedir}/target/firefox/package.json</include>
+                </includes>
+                <regex>false</regex>
+                <token>$VERSION</token>
+                <value>${project.version}</value>
+            </configuration>
+        </plugin>
     </plugins>
   </build>
 </project>
