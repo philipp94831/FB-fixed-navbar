@@ -3,7 +3,7 @@
 
 This tiny extensions freezes the left navigation pane on Facebook so that it is always visible no matter how far you scroll in your news feed.
 
-Run `mvn clean package` to create folder structure for Firefox and Chrome. Bundle extension using jpm and Chrome Developer Tools.
+Run `mvn clean compile` to create folder structure for Firefox and Chrome. Bundle extension using `mvn -DcrxPEMFile=key.pem clean package `.
 
 Chrome
 ------

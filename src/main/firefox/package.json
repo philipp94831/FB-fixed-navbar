@@ -5,7 +5,7 @@
   "description": "Freezes left navigation pane on Facebook",
   "author": "Philipp Schirmer",
   "license": "MPL 2.0",
-  "version": "$VERSION",
+  "version": "${project.version}",
   "main": "lib/main.js",
   "preferences": [{
     "name": "useScrollbar",
