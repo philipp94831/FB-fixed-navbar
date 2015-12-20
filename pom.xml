@@ -29,7 +29,7 @@
 				<executions>
 					<execution>
 						<id>copy-resources-chrome</id>
-						<phase>validate</phase>
+						<phase>compile</phase>
 						<goals>
 							<goal>copy-resources</goal>
 						</goals>
@@ -47,7 +47,7 @@
 					</execution>
 					<execution>
 						<id>copy-resources-firefox-shared</id>
-						<phase>validate</phase>
+						<phase>compile</phase>
 						<goals>
 							<goal>copy-resources</goal>
 						</goals>
@@ -62,7 +62,7 @@
 					</execution>
 					<execution>
 						<id>copy-resources-firefox</id>
-						<phase>validate</phase>
+						<phase>compile</phase>
 						<goals>
 							<goal>copy-resources</goal>
 						</goals>
