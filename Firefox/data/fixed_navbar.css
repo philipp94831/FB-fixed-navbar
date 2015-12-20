@@ -1,6 +1,6 @@
 #scrollbarHider {
   overflow: hidden;
-  top: 95px;
+  top: 45px;
   bottom: 0px;
   position: fixed;
   margin-left: -20px;
@@ -9,10 +9,11 @@
 
 #navigationWrapper {
   overflow: auto;
-  height: 100% !important;
+  height: calc(100% - 10px) !important;
   padding-left: 20px;
   width: 164px !important;
   position: absolute;
+  padding-top: 10px;
 }
 
 #leftColWrapper {

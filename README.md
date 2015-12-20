@@ -28,6 +28,10 @@ Found a Bug? [File it!](https://github.com/philipp94831/FB-fixed-navbar/issues)
 
 [Changelog:](https://github.com/philipp94831/FB-fixed-navbar/releases)
 
+[1.1.5:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.5)
+
+- Match new Facebook sidebar
+
 [1.1.4:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.4)
 
 - Update to jQuery 2.1.3
