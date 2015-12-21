@@ -128,11 +128,7 @@
             </goals>
             <configuration>
               <tasks>
-                <move toDir="target">
-                  <fileset dir="target/firefox">
-                    <include name="*.xpi"/>
-                  </fileset>
-                </move>
+                <move file="target/firefox/jid1-9prtREtF6cjLPA@jetpack-${project.version}.xpi" toFile="target/fb-fixed-navbar-${project.version}.xpi"/>
               </tasks>
             </configuration>
           </execution>
