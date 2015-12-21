@@ -4,7 +4,7 @@ var prefs = require("sdk/simple-prefs").prefs;
 
 pageMod.PageMod({
   include: "*.facebook.com",
-  contentScriptFile: [data.url("jquery-2.1.3.min.js"), data.url("jquery.slimscroll.min.js"), data.url("platform.js"), data.url("fixed_navbar.js")],
+  contentScriptFile: [data.url("jquery-2.1.4.min.js"), data.url("jquery.slimscroll.min.js"), data.url("platform.js"), data.url("fixed_navbar.js")],
   contentStyleFile: data.url("fixed_navbar.css"),
   contentScriptWhen: "end",
   onAttach: function(worker) {

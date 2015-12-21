@@ -3,19 +3,19 @@
 
 This tiny extensions freezes the left navigation pane on Facebook so that it is always visible no matter how far you scroll in your news feed.
 
-Run `mvn clean compile` to create folder structure for Firefox and Chrome. Bundle extension using `mvn -DcrxPEMFile=key.pem clean package `.
+Run `mvn clean compile` to create folder structure for Firefox and Chrome. Bundle extension using `mvn -DcrxPEMFile=key.pem clean package`.
 
 Chrome
 ------
 
 Download at [Chrome Web Store](https://chrome.google.com/webstore/detail/hijonlkmghfbdpcmbimegkoogkfpckkl)  
-Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.5/FB-fixed-navbar.crx)
+Download [.crx](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.6/FB-fixed-navbar.crx)
 
 Firefox
 -------
 
 Download at [Add-ons for Firefox](https://addons.mozilla.org/addon/fb-fixed-navbar/)  
-Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.5/FB-fixed-navbar.xpi)
+Download [.xpi](https://github.com/philipp94831/FB-fixed-navbar/releases/download/v1.1.6/FB-fixed-navbar.xpi)
 
 Using
 -----
@@ -29,6 +29,10 @@ Found a Bug? [File it!](https://github.com/philipp94831/FB-fixed-navbar/issues)
 ===
 
 [Changelog:](https://github.com/philipp94831/FB-fixed-navbar/releases)
+
+[1.1.6:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.6)
+
+- Update to jQuery 2.1.4
 
 [1.1.5:](https://github.com/philipp94831/FB-fixed-navbar/releases/tag/v1.1.5)
 

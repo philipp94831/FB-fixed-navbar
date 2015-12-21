@@ -19,7 +19,7 @@
     {
       "matches": ["*://www.facebook.com/*"],
       "css": ["fixed_navbar.css"],
-      "js": ["jquery-2.1.3.min.js", "jquery.slimscroll.min.js", "platform.js", "fixed_navbar.js"],
+      "js": ["jquery-2.1.4.min.js", "jquery.slimscroll.min.js", "platform.js", "fixed_navbar.js"],
       "run_at": "document_end"
     }
   ]
