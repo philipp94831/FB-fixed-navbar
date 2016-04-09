@@ -28,6 +28,7 @@ function fixNavbar() {
 function setUpDOM() {
   
   var pagelet_navigation = document.getElementById('pagelet_navigation');
+  var pagelet_welcome_box = document.getElementById('pagelet_welcome_box');
   var mainContainer = document.getElementById('mainContainer');
   var leftCol = document.getElementById('leftCol');
   var contentCol = document.getElementById('contentCol');
@@ -54,6 +55,8 @@ function setUpDOM() {
   scrollbarHider.appendChild(scrollShade);
   scrollbarHider
     .appendChild(navigationWrapper)
+    .appendChild(pagelet_welcome_box);
+  navigationWrapper
     .appendChild(pagelet_navigation);
   mainContainer.appendChild(contentCol);
   
